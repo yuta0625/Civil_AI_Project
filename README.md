@@ -231,17 +231,21 @@ ollama pull qwen2.5:7b
 ollama pull nomic-embed-text
 ```
 
-### 3. 環境変数の確認
+### 3. 環境変数の設定
 
-`.env` を開き、環境に合わせて設定を確認します。
+`.env.example` をコピーして `.env` を作成し、パスワード等を設定します。
 
 ```bash
-# Mac 環境（デフォルト）
-OLLAMA_BASE_URL=http://host.docker.internal:11434
-
-# WSL2 + GPU 環境（移行時）
-# OLLAMA_BASE_URL=http://ollama:11434
+cp .env.example .env
 ```
+
+`.env` を開き、以下の項目を環境に合わせて設定してください。
+
+| 項目 | 説明 |
+|---|---|
+| `FUSEKI_ADMIN_PASSWORD` | Fuseki 管理画面のパスワード（任意の文字列） |
+| `NEO4J_PASSWORD` | Neo4j のパスワード（任意の文字列） |
+| `OLLAMA_BASE_URL` | Mac環境は `http://host.docker.internal:11434`、WSL2環境は `http://ollama:11434` |
 
 ### 4. Docker コンテナ起動
 
