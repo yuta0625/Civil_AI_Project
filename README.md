@@ -5,6 +5,12 @@
 
 ---
 
+> **注意**: 本リポジトリにはコードのみが含まれています。
+> RAG用の実務資料（`data/markdown_docs/`）およびFAISSインデックス（`data/vectorstore/`）は機密性の高い共同研究資料のため非公開です。
+> cloneしただけでは動作しません。データを別途用意した上でセットアップ手順を実行してください。
+
+---
+
 ## 背景と課題
 
 建設工事の法務業務では、**建設業法・民法・労働安全衛生法などの複数の法令** と、**実務的な逐条解説・契約約款** を横断して参照する必要があります。
@@ -274,7 +280,7 @@ curl -X POST "http://localhost:3030/ConstructionLaw/data" \
 **② Fuseki → Neo4j へグラフを転送（ETL）**
 
 ```bash
-uv run python bridge.py
+uv run bridge.py
 ```
 
 **③ FAISS ベクトルインデックス生成**
@@ -295,7 +301,7 @@ curl http://localhost:8080/health
 
 ```bash
 echo "第14条において受注者の義務を教えて" > CLI_test/prompt/question.txt
-uv run python CLI_test/ask.py
+uv run CLI_test/ask.py
 ```
 
 **Web UI**
