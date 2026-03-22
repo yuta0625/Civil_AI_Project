@@ -21,65 +21,8 @@
 
 ## 全体アーキテクチャ
 
-```mermaid
-flowchart TB
-    subgraph USER["ユーザーインターフェース"]
-        UI["Next.js チャット UI\n(localhost:3000)"]
-        CLI["CLI テスト\nCLI_test/ask.py"]
-    end
 
-    subgraph BACKEND["バックエンド (Docker)"]
-        API["FastAPI\napi_server.py\n:8080"]
-
-        subgraph AGENT["LangGraph エージェント (main_agent.py)"]
-            direction TB
-            N1["① router\n質問解析・法令特定"]
-            N2["② sparql\nFuseki SPARQL 検索"]
-            N3["③ neo4j\n双方向参照・概念取得"]
-            N4["④ fetch_law\ne-Gov API 法令原文"]
-            N5["⑤ fetch_rag\nFAISS ベクトル検索"]
-            N6["⑥ generate\nLLM 回答生成"]
-            N1 --> N2 --> N3 --> N4 --> N5 --> N6
-        end
-
-        API --> AGENT
-    end
-
-    subgraph DATASTORES["データストア (Docker)"]
-        FUSEKI["Apache Fuseki\nSPARQL / RDF\n:3030"]
-        NEO4J["Neo4j\nProperty Graph\n:7474 / :7687"]
-        FAISS["FAISS\nベクトルインデックス\n(ローカルファイル)"]
-    end
-
-    subgraph LLM_HOST["LLM ホスト (Mac)"]
-        OLLAMA["Ollama\nqwen2.5:7b / nomic-embed-text\n:11434"]
-    end
-
-    subgraph EXTERNAL["外部 API"]
-        EGOV["e-Gov 法令 API\nelaws.e-gov.go.jp"]
-    end
-
-    subgraph DATA_PREP["データ準備 (初回のみ・ホスト実行)"]
-        TTL["construction_treatise.ttl\nRDF グラフ (685 トリプル)"]
-        MD["markdown_docs/\n逐条解説 39 ファイル"]
-        BRIDGE["bridge.py\nFuseki → Neo4j ETL"]
-        INGEST["ingest.py\nFAISS インデックス生成"]
-        TTL -->|"Fuseki にアップロード"| FUSEKI
-        FUSEKI -->|"SPARQL 抽出"| BRIDGE --> NEO4J
-        MD -->|"ベクトル化"| INGEST --> FAISS
-    end
-
-    UI -->|"POST /ask/stream (SSE)"| API
-    CLI -->|"POST /ask"| API
-
-    N2 <-->|"SPARQL"| FUSEKI
-    N3 <-->|"Bolt"| NEO4J
-    N5 <-->|"ファイル読込"| FAISS
-    N1 <-->|"LLM 推論"| OLLAMA
-    N6 <-->|"LLM 推論"| OLLAMA
-    N5 <-->|"埋め込み生成"| OLLAMA
-    N4 <-->|"HTTPS"| EGOV
-```
+![alt text](docs/civil_rag_system_architecture.svg)
 
 ---
 
