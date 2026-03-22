@@ -1,0 +1,726 @@
+@prefix law: <http://example.org/construction/contract/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+law:Chapter_1 a law:TreatiseElement ;
+    rdfs:label "第1章" ;
+    law:refersTo law:Article_20,
+        law:Article_21,
+        law:Article_22,
+        law:Article_23,
+        law:Article_24,
+        law:Article_25,
+        law:Article_34 ;
+    law:relatesTo law:Damages,
+        law:PriceAdjustment,
+        law:Procedure,
+        law:TimeExtension ;
+    law:sourceFile "第１部　序　説　第１章.md" ;
+    law:summary "# 1部 序  # 1章建設工事の請負契約と標準請負契約約款  #### 1 建設工事の請負契約  人はみな生れながらにして法の下に平等な権利能力を 近代契約法の理念 もち、独立して自由な主体としての意思表示に基づき、 対等な立場において自由に契約することによって社会生活を築いてゆくとい うのが、「身分から契約へ」の有名な法諺に表象される近代法の理念である。 建設工事の請負という場において、 2人..." .
+
+law:Chapter_2 a law:TreatiseElement ;
+    rdfs:label "第2章" ;
+    law:refersTo law:Article_1,
+        law:Article_10,
+        law:Article_11,
+        law:Article_13,
+        law:Article_14,
+        law:Article_15,
+        law:Article_16,
+        law:Article_17,
+        law:Article_19,
+        law:Article_20,
+        law:Article_21,
+        law:Article_25,
+        law:Article_27,
+        law:Article_3,
+        law:Article_30,
+        law:Article_34,
+        law:Article_35,
+        law:Article_39,
+        law:Article_4,
+        law:Article_40,
+        law:Article_43,
+        law:Article_44,
+        law:Article_45,
+        law:Article_47,
+        law:Article_48,
+        law:Article_5,
+        law:Article_52,
+        law:Article_54,
+        law:Article_6,
+        law:Article_9 ;
+    law:relatesTo law:Damages,
+        law:DesignChange,
+        law:ForceMajeure,
+        law:PriceAdjustment,
+        law:Procedure,
+        law:Suspension,
+        law:TimeExtension ;
+    law:sourceFile "第１部　序　説　第２章.md" ;
+    law:summary "# 2章標準請負契約約款の制定と改正  建設工事の標準請負契約約款のうち、公共工事の発注契約に係る建設工事 標準請負契約約款(以下「公共工事標準請負契約約款」という。)は、昭和25 2月に、中央建設業審議会が決定勧告して以来、 27 2月、 29 3月、 31 10月の技術的修正の後、 37 9月及び47 12月の 2度にわたってほぼ全面的 な改正がなされた。また、 56 3月には、「賃金又は物価..." .
+
+law:Chapter_3 a law:TreatiseElement ;
+    rdfs:label "第3章" ;
+    law:refersTo law:Article_1,
+        law:Article_10,
+        law:Article_11,
+        law:Article_12,
+        law:Article_13,
+        law:Article_14,
+        law:Article_15,
+        law:Article_16,
+        law:Article_17,
+        law:Article_18,
+        law:Article_19,
+        law:Article_20,
+        law:Article_21,
+        law:Article_22,
+        law:Article_23,
+        law:Article_24,
+        law:Article_25,
+        law:Article_26,
+        law:Article_27,
+        law:Article_28,
+        law:Article_29,
+        law:Article_30,
+        law:Article_31,
+        law:Article_32,
+        law:Article_33,
+        law:Article_34,
+        law:Article_35,
+        law:Article_36,
+        law:Article_37,
+        law:Article_38,
+        law:Article_39,
+        law:Article_40,
+        law:Article_41,
+        law:Article_42,
+        law:Article_43,
+        law:Article_44,
+        law:Article_45,
+        law:Article_46,
+        law:Article_47,
+        law:Article_48,
+        law:Article_49,
+        law:Article_5,
+        law:Article_50,
+        law:Article_51,
+        law:Article_52,
+        law:Article_53,
+        law:Article_54,
+        law:Article_55,
+        law:Article_56,
+        law:Article_57,
+        law:Article_59,
+        law:Article_6,
+        law:Article_60,
+        law:Article_61,
+        law:Article_62,
+        law:Article_637,
+        law:Article_8,
+        law:Article_9 ;
+    law:relatesTo law:Damages,
+        law:DesignChange,
+        law:ForceMajeure,
+        law:PriceAdjustment,
+        law:Procedure,
+        law:Suspension,
+        law:TimeExtension ;
+    law:sourceFile "第１部　序　説　第３章.md" ;
+    law:summary "## 3章公共工事標準請負契約約款の概要  中央建設業審議会が公共工事等の請負契約関係を律すべきものとして決定 及び勧告している公共工事標準請負契約約款(以下「公共約款」という。) は、前章で、述べたように数次の改正を経ている。  各条項の目的、趣旨等を限られた紙面で概観することは容易ではないが、 公共約款の内容は、契約書及び全63条の規定にわたる膨大なものであるので、 ここでは、公共約款全体の趣..." .
+
+law:公共工事標準請負契約約款の解説_内表紙_ a law:TreatiseElement ;
+    rdfs:label "公共工事標準請負契約約款の解説　内表紙 " ;
+    law:sourceFile "公共工事標準請負契約約款の解説　内表紙 .md" ;
+    law:summary "編著  ![](_page_0_Picture_3.jpeg)..." .
+
+law:公共工事標準請負契約約款の解説_表紙_ a law:TreatiseElement ;
+    rdfs:label "公共工事標準請負契約約款の解説　表紙 " ;
+    law:sourceFile "公共工事標準請負契約約款の解説　表紙 .md" ;
+    law:summary "6版..." .
+
+law:公共工事標準請負契約約款の解説_裏表紙_ a law:TreatiseElement ;
+    rdfs:label "公共工事標準請負契約約款の解説　裏表紙 " ;
+    law:sourceFile "公共工事標準請負契約約款の解説　裏表紙 .md" ;
+    law:summary "![](_page_0_Picture_0.jpeg)  9784802835558  ![](_page_0_Picture_2.jpeg)  1922032042003  ISBN978-4-8028-3555-8 C2032 ¥4200E  4,200円 (税 )  ![](_page_0_Picture_6.jpeg)..." .
+
+law:北陸整備局_H31 a law:TreatiseElement ;
+    rdfs:label "北陸整備局　H31" ;
+    law:refersTo law:Article_1,
+        law:Article_11,
+        law:Article_18,
+        law:Article_2,
+        law:Article_30,
+        law:Article_46,
+        law:Article_47 ;
+    law:relatesTo law:Damages,
+        law:DesignChange,
+        law:ForceMajeure,
+        law:Procedure,
+        law:Suspension,
+        law:TimeExtension ;
+    law:sourceFile "北陸整備局　H31.md" ;
+    law:summary "# 土木工事現場必携  現場で活用する手引き・マニュアル等編  平成31年3月  北陸地方整備局 企 画 部  ### 現場必携等の改訂経緯  近年、公共事業を取り巻くなか、工事における品質の確保を図るととも に生産性向上を図ることがとりわけ重要な課題となっています。  そのため、北陸地方整備局では自発注の直轄工事において工事契約後か ら工事完成、引渡しまで品質確保及び生産性向上の諸課題について対..." .
+
+law:第０部_目_次 a law:TreatiseElement ;
+    rdfs:label "第０部　目　次" ;
+    law:refersTo law:Article_1,
+        law:Article_10,
+        law:Article_11,
+        law:Article_12,
+        law:Article_13,
+        law:Article_14,
+        law:Article_15,
+        law:Article_16,
+        law:Article_18,
+        law:Article_19,
+        law:Article_2,
+        law:Article_20,
+        law:Article_21,
+        law:Article_22,
+        law:Article_23,
+        law:Article_24,
+        law:Article_25,
+        law:Article_26,
+        law:Article_27,
+        law:Article_28,
+        law:Article_29,
+        law:Article_3,
+        law:Article_30,
+        law:Article_31,
+        law:Article_32,
+        law:Article_33,
+        law:Article_34,
+        law:Article_35,
+        law:Article_36,
+        law:Article_37,
+        law:Article_38,
+        law:Article_39,
+        law:Article_4,
+        law:Article_40,
+        law:Article_41,
+        law:Article_42,
+        law:Article_43,
+        law:Article_44,
+        law:Article_45,
+        law:Article_46,
+        law:Article_47,
+        law:Article_48,
+        law:Article_49,
+        law:Article_5,
+        law:Article_50,
+        law:Article_51,
+        law:Article_52,
+        law:Article_53,
+        law:Article_54,
+        law:Article_55,
+        law:Article_56,
+        law:Article_57,
+        law:Article_58,
+        law:Article_59,
+        law:Article_6,
+        law:Article_60,
+        law:Article_61,
+        law:Article_62,
+        law:Article_7,
+        law:Article_8,
+        law:Article_9 ;
+    law:relatesTo law:Damages,
+        law:DesignChange,
+        law:ForceMajeure,
+        law:PriceAdjustment,
+        law:Procedure,
+        law:Suspension,
+        law:TimeExtension ;
+    law:sourceFile "第０部　目　次.md" ;
+    law:summary "5 請負代金の支払方法等に関する規定…………....・<sup>H</sup> ・......・<sup>H</sup> ・--……………・…58 6 履行遅滞、契約不適合責任、解除等に関する規定…………………………一60  j  | 7 ء  | 分争の解決等に関する規定 ······65     | |------|---------------------------| |      | そ..." .
+
+law:Article_4 a law:TreatiseElement ;
+    rdfs:label "第4条" ;
+    law:refersTo law:Article_100,
+        law:Article_16,
+        law:Article_167,
+        law:Article_234,
+        law:Article_29,
+        law:Article_3,
+        law:Article_446,
+        law:Article_48,
+        law:Article_5,
+        law:Article_50,
+        law:Article_502,
+        law:Article_511,
+        law:Article_55,
+        law:Article_72,
+        law:Article_78 ;
+    law:relatesTo law:Damages,
+        law:PriceAdjustment,
+        law:Procedure,
+        law:Suspension ;
+    law:sourceFile "第２部　逐条解説　第４条 .md" ;
+    law:summary "#### (契約の保証)  - 4条(A) 受注者は、この契約の締結と同時に、次の各号のいずれかに掲げ る保証を付さなければならない。ただし、第 5号の場合においては、履行保証 保険契約の締結後、直ちにその保険証券を発注者に寄託しなければならない。   - 契約保証金の納付   - 二契約保証金に代わる担保となる有価証券等の提供   - この契約による債務の不履行により生ずる損害金の支払いを保証す..." .
+
+law:Article_7 a law:TreatiseElement ;
+    rdfs:label "第7条" ;
+    law:refersTo law:Article_12,
+        law:Article_15,
+        law:Article_2,
+        law:Article_24,
+        law:Article_27,
+        law:Article_48,
+        law:Article_6 ;
+    law:relatesTo law:PriceAdjustment,
+        law:Procedure,
+        law:TimeExtension ;
+    law:sourceFile "第２部　逐条解説　第７条 .md",
+        "第２部　逐条解説　第７条の２.md" ;
+    law:summary "(下請負人の通知)  7条発注者は、受注者に対して、下請負人の商号又は名称その他必要な事項 の通知を請求することができる。  ## 1 概要  本条は、発注者は、下請負人に関する必要な事項を発注者に通知するよう 受注者に請求することができることを規定している。  ## 2 趣旨  建設工事の請負契約が適正かつ円滑に履行されるためには、工事材料、施 工方法等、建設機械器具等の選択に誤りがないことのほ...",
+        "- 7条の 2 (A) 受注者は、次の各号に掲げる届出をしていない建設業者(建 設業法(昭和24年法律第100号)第 2条第 3項に定める建設業者をいい、当該 届出の義務がない者を除く。以下「社会保険等未加入建設業者」という。)を 下請負人としてはならない。   - 健康保険法(大正11年法律第70号)第48条の規定による届出   - 二厚生年金保険法(昭和29年法律第115号)第27条の規定によ..." .
+
+law:Article_8 a law:TreatiseElement ;
+    rdfs:label "第8条" ;
+    law:refersTo law:Article_1 ;
+    law:relatesTo law:DesignChange,
+        law:PriceAdjustment ;
+    law:sourceFile "第２部　逐条解説　第８条 .md" ;
+    law:summary "## (特許権等の使用)  8条受注者は、特許権、実用新案権、意匠権、商標権その他日本国の法令に 基づき保護される第三者の権利(以下「特許権等Jという l。)の対象となって いる工事材料、施工方法等を使用するときは、その使用に関する一切の責任を 負わなければならない。ただし、発注者がその工事材料、施工方法等を指定し た場合において、設計図書に特許権等の対象である旨の明示がなく、かつ、受 注者がその..." .
+
+law:Article_21 a law:TreatiseElement ;
+    rdfs:label "第21条" ;
+    law:relatesTo law:TimeExtension ;
+    law:sourceFile "第２部　逐条解説　第２１条 .md" ;
+    law:summary "(著しく短い工期の禁止)  21条発注者は、工期の延長又は短縮を行うときは、この工事に従事する者の 労働時間その他の労働条件が適正に確保されるよう、やむを得ない事由により 工事等の実施が困難であると見込まれる日数等を考慮しなければならない。  ## 1 概要  本条は、工期の変更を行う場合に、その工事に従事する者の労働時間など の労働条件が適正に確保されるよう、施工が困難な日数を考慮しなければな ..." .
+
+law:Article_10 a law:TreatiseElement ;
+    rdfs:label "第10条" ;
+    law:refersTo law:Article_12,
+        law:Article_15,
+        law:Article_26,
+        law:Article_7 ;
+    law:relatesTo law:DesignChange,
+        law:PriceAdjustment,
+        law:Procedure,
+        law:Suspension ;
+    law:sourceFile "第２部　逐条解説　第１０条 .md" ;
+    law:summary "#### (現場代理人及び主任技術者等)  - 10条受注者は、次の各号に掲げる者を定めて工事現場に設置し、設計図書に 定めるところにより、その氏名その他必要な事項を発注者に通知しなければな らない。これらの者を変更したときも同様とする。   - 現場代理人   - (A) [ ]主任技術者     - (B) [ ]監理技術者     - (C)監理技術者補佐(建設業法第26条第 3項ただし書に..." .
+
+law:Article_2 a law:TreatiseElement ;
+    rdfs:label "第2条" ;
+    law:refersTo law:Article_16,
+        law:Article_19,
+        law:Article_20 ;
+    law:relatesTo law:Damages,
+        law:DesignChange,
+        law:PriceAdjustment,
+        law:Suspension,
+        law:TimeExtension ;
+    law:sourceFile "第２部　逐条解説　第２条.md" ;
+    law:summary "#### (関連工事の調整)  2条発注者は、受注者の施工する工事及び発注者の発注に係る第三者の施工 する他の工事が施工上密接に関連する場合において、必要があるときは、その 施工につき、調整を行うものとする。この場合においては、受注者は、発注者 の調整に従い、当該第三者の行う工事の円滑な施工に協力しなければならない。  #### 1 概要  本条は、施工上密接に関連する複数の工事がある場合における..." .
+
+law:Article_28 a law:TreatiseElement ;
+    rdfs:label "第28条" ;
+    law:refersTo law:Article_15,
+        law:Article_18,
+        law:Article_20,
+        law:Article_22,
+        law:Article_23,
+        law:Article_29,
+        law:Article_30,
+        law:Article_32,
+        law:Article_34,
+        law:Article_39,
+        law:Article_44,
+        law:Article_54,
+        law:Article_58,
+        law:Article_8 ;
+    law:relatesTo law:Damages,
+        law:DesignChange,
+        law:ForceMajeure,
+        law:PriceAdjustment,
+        law:Suspension,
+        law:TimeExtension ;
+    law:sourceFile "第２部　逐条解説　第２８条 .md" ;
+    law:summary "### (一般的損害)  28条工事目的物の引渡し前に、工事目的物又は工事材料について生じた損害 その他工事の施工区関して生じた損害(次条第 1項若しくは第 2項又は第30 1項に規定する損害を除く。)については、受注者がその費用を負担する。 ただし、その損害(第58条第 1項の規定により付された保険等によりてん補さ れた部分を除く。)のうち発注者の責めに帰すべき事由により生じたものにつ いては、..." .
+
+law:Article_6 a law:TreatiseElement ;
+    rdfs:label "第6条" ;
+    law:refersTo law:Article_22,
+        law:Article_24,
+        law:Article_26 ;
+    law:sourceFile "第２部　逐条解説　第６条 .md" ;
+    law:summary "#### (一括委任又は一括下請負の禁止)  - 6条受注者は、工事の全部若しくはその主たる部分又は他の部分から独立し てその機能を発揮する工作物の工事を一括して第三者に委任し、又は請け負わ せてはならなし、。   - [注] 公共工事の入札及び契約の適正化の促進に関する法律(平成12年法律第127号)の適用を受けな い発注者が建設業法施行令(昭和31年政令第273号)第 6条の 3に規定する工事..." .
+
+law:Article_11 a law:TreatiseElement ;
+    rdfs:label "第11条" ;
+    law:relatesTo law:DesignChange ;
+    law:sourceFile "第２部　逐条解説　第１１条 .md" ;
+    law:summary "(履行報告)  11条受注者は、設計図書に定めるところにより、この契約の履行について発 注者に報告しなければならない。  ## 1 概要  本条は、請負契約の適正な履行を確保するために、発注者が契約の履行計 画及び契約の履行状況を常時把握する必要があることから、受注者が履行報 告をしなければならないことを規定するものである。  ## 2 履行報告の内容  本条の規定は、平成 7年度改正において、新..." .
+
+law:Article_12 a law:TreatiseElement ;
+    rdfs:label "第12条" ;
+    law:refersTo law:Article_10,
+        law:Article_23,
+        law:Article_59,
+        law:Article_9 ;
+    law:relatesTo law:PriceAdjustment,
+        law:Procedure ;
+    law:sourceFile "第２部　逐条解説　第１２条 .md" ;
+    law:summary "(工事関係者に関する措置請求)  - 12条発注者は、現場代理人がその職務(監理技術者等又は専門技術者と兼任 する現場代理人にあっては、それらの者の職務を含む。)の執行につき著しく 不適当と認められるときは、受注者に対して、その理由を明示した書面により、 必要な措置をとるべきことを請求することができる。 - 2 発注者又は監督員は、監理技術者等、専門技術者(これらの者と現場代理人 を兼任する者を除..." .
+
+law:Article_17 a law:TreatiseElement ;
+    rdfs:label "第17条" ;
+    law:refersTo law:Article_1,
+        law:Article_13,
+        law:Article_14,
+        law:Article_38,
+        law:Article_39 ;
+    law:relatesTo law:Damages,
+        law:DesignChange,
+        law:PriceAdjustment,
+        law:Procedure,
+        law:TimeExtension ;
+    law:sourceFile "第２部　逐条解説　第１７条 .md" ;
+    law:summary "#### (設計図書不適合の場合の改造義務及び破壊検査等)  - 17条受注者は、工事の施工部分が設計図書に適合しない場合において、監督 員がその改造を請求したときは、当該請求に従わなければならない。この場合 において、当該不適合が監督員の指示によるときその他発注者の責めに帰すべ き事由によるときは、発注者は、必要があると認められるときは工期若しくは 請負代金額を変更し、又は受注者に損害を及ぼした..." .
+
+law:Article_29 a law:TreatiseElement ;
+    rdfs:label "第29条" ;
+    law:refersTo law:Article_1,
+        law:Article_2,
+        law:Article_28,
+        law:Article_58,
+        law:Article_709,
+        law:Article_715,
+        law:Article_716,
+        law:Article_717,
+        law:Article_719 ;
+    law:relatesTo law:Damages,
+        law:DesignChange,
+        law:TimeExtension ;
+    law:sourceFile "第２部　逐条解説　第２９条 .md" ;
+    law:summary "### (第三者に及ぼした損害)  - 29条工事の施工について第三者に損害を及ぼしたときは、受注者がその損害 を賠償しなければならない。ただし、その損害(第58条第 l項の規定により付 された保険等によりてん補された部分を除く。以下この条において同じ。)の うち発注者の責めに帰すべき事由により生じたものについては、発注者が負担 する。 - 2 前項の規定にかかわらず、工事の施工に伴い通常避けるこ..." .
+
+law:Article_9 a law:TreatiseElement ;
+    rdfs:label "第9条" ;
+    law:refersTo law:Article_1,
+        law:Article_101,
+        law:Article_11,
+        law:Article_12,
+        law:Article_14,
+        law:Article_15,
+        law:Article_167,
+        law:Article_17,
+        law:Article_18,
+        law:Article_234,
+        law:Article_27,
+        law:Article_29,
+        law:Article_3,
+        law:Article_61 ;
+    law:relatesTo law:DesignChange,
+        law:PriceAdjustment,
+        law:Procedure,
+        law:TimeExtension ;
+    law:sourceFile "第２部　逐条解説　第９条 .md" ;
+    law:summary "# (監督員)  - 9条発注者は、監督員を置いたときは、その氏名を受注者に通知しなければ ならない。監督員を変更したときも同様とする。 - 2 監督員は、この約款の他の条項に定めるもの及びこの約款に基づく発注者の 権限とされる事項のうち発注者が必要と認めて監督員に委任したもののほか、 設計図書に定めるところにより、次に掲げる権限を有する。   - この契約の履行についての受注者又は受注者の現場代..." .
+
+law:Article_26 a law:TreatiseElement ;
+    rdfs:label "第26条" ;
+    law:refersTo law:Article_25,
+        law:Article_3,
+        law:Article_5,
+        law:Article_80 ;
+    law:relatesTo law:DesignChange,
+        law:PriceAdjustment,
+        law:Procedure,
+        law:TimeExtension ;
+    law:sourceFile "第２部　逐条解説　第２６条 .md" ;
+    law:summary "(賃金又は物価の変動に基づく請負代金額の変更)  - 26条発注者又は受注者は、工期内で請負契約締結の日から12月を経過した後 に日本国内における賃金水準又は物価水準の変動により請負代金額が不適当と なったと認めたときは、相手方に対して請負代金額の変更を請求することがで きる。 - 2 発注者又は受注者は、前項の規定による請求があったときは、変動前残工事 代金額(請負代金額から当該請求時の出来形部..." .
+
+law:Article_27 a law:TreatiseElement ;
+    rdfs:label "第27条" ;
+    law:relatesTo law:Damages,
+        law:ForceMajeure,
+        law:PriceAdjustment,
+        law:Procedure,
+        law:TimeExtension ;
+    law:sourceFile "第２部　逐条解説　第２７条 .md" ;
+    law:summary "#### (臨機の措置)  - 27条受注者は、災害防止等のため必要があると認めるときは、臨機の措置を とらなければならない。この場合において、必要があると認めるときは、受注 者は、あらかじめ監督員の意見を聴かなければならない。ただし、緊急やむを 得ない事情があるときは、この限りでない。 - 2 前項の場合においては、受注者は、そのとった措置の内容を監督員に直ちに 通知しなければならない。 - 3..." .
+
+law:Article_3 a law:TreatiseElement ;
+    rdfs:label "第3条" ;
+    law:refersTo law:Article_25,
+        law:Article_26,
+        law:Article_30,
+        law:Article_38 ;
+    law:relatesTo law:Damages,
+        law:DesignChange,
+        law:ForceMajeure,
+        law:PriceAdjustment,
+        law:TimeExtension ;
+    law:sourceFile "第２部　逐条解説　第３条 .md" ;
+    law:summary "### (請負代金内訳書及び工程表)  - 3条(A) 受注者は、設計図書に基づいて請負代金内訳書(以下「内訳書」 という。)及び工程表を作成し、発注者に提出し、その承認を受けなければな らない。   - 2 内訳書には、健康保険、厚生年金保険及び雇用保険に係る法定福利費を明示 するものとする。 - 3 内訳書及び工程表は、この約款の他の条項において定める場合を除き、発注 者及び受注者を拘束するも..." .
+
+law:Article_5 a law:TreatiseElement ;
+    rdfs:label "第5条" ;
+    law:refersTo law:Article_1,
+        law:Article_13,
+        law:Article_24,
+        law:Article_32,
+        law:Article_35,
+        law:Article_38,
+        law:Article_466,
+        law:Article_47,
+        law:Article_48 ;
+    law:relatesTo law:Damages,
+        law:DesignChange,
+        law:PriceAdjustment ;
+    law:sourceFile "第２部　逐条解説　第５条 .md" ;
+    law:summary "### (権利義務の譲渡等)  - 5条受注者は、この契約により生ずる権利又は義務を第三者に譲渡し、又は 承継させてはならない。ただし、あらかじめ、発注者の承諾を得た場合は、こ の限りで、ない。   - [注] ただし書の適用については、たとえば、受注者が第32条第 2項の検査に合格した後に請負代金債 権を譲渡する場合や工事に係る請負代金債権を担保として資金を借り入れようとする場合(受注者 が、「..." .
+
+law:Article_13 a law:TreatiseElement ;
+    rdfs:label "第13条" ;
+    law:refersTo law:Article_14,
+        law:Article_22 ;
+    law:relatesTo law:DesignChange,
+        law:TimeExtension ;
+    law:sourceFile "第２部　逐条解説　第１３条 .md" ;
+    law:summary "### (工事材料の品質及び検査等)  - 13条工事材料の品質については、設計図書に定めるところによる。設計図書 にその品質が明示されていない場合にあっては、中等の品質を有するものとす る。 - 2 受注者は、設計図書において監督員の検査(確認を含む。以下この条におい て同じ。)を受けて使用すべきものと指定された工事材料については、当該検 査に合格したものを使用しなければならない。この場合におい..." .
+
+law:Article_14 a law:TreatiseElement ;
+    rdfs:label "第14条" ;
+    law:refersTo law:Article_13,
+        law:Article_22 ;
+    law:relatesTo law:DesignChange,
+        law:Procedure,
+        law:TimeExtension ;
+    law:sourceFile "第２部　逐条解説　第１４条 .md" ;
+    law:summary "#### (監督員の立会い及び工事記録の整備等)  - 14条受注者は、設計図書において監督員の立会いの上調合し、又は調合につ いて見本検査を受けるものと指定された工事材料については、当該立会いを受 けて調合し、又は当該見本検査に合格したものを使用しなければならない。 - 2 受注者は、設計図書において監督員の立会いの上施工するものと指定された 工事については、当該立会いを受けて施工しなければなら..." .
+
+law:Article_16 a law:TreatiseElement ;
+    rdfs:label "第16条" ;
+    law:refersTo law:Article_20,
+        law:Article_22 ;
+    law:relatesTo law:Damages,
+        law:DesignChange,
+        law:PriceAdjustment,
+        law:Suspension,
+        law:TimeExtension ;
+    law:sourceFile "第２部　逐条解説　第１６条 .md" ;
+    law:summary "#### (工事用地の確保等)  - 16条発注者は、工事用地その他設計図書において定められた工事の施工上必 要な用地(以下「工事用地等」という。)を受注者が工事の施工上必要とする 日(設計図書に特別の定めがあるときは、その定められた日)までに確保しな ければならない。 - 2 受注者は、確保された工事用地等を善良な管理者の注意をもって管理しなけ ればならなし、。 - 3 工事の完成、設計図書の変..." .
+
+law:Article_19 a law:TreatiseElement ;
+    rdfs:label "第19条" ;
+    law:refersTo law:Article_24,
+        law:Article_25,
+        law:Article_52 ;
+    law:relatesTo law:Damages,
+        law:DesignChange,
+        law:PriceAdjustment,
+        law:Procedure,
+        law:Suspension,
+        law:TimeExtension ;
+    law:sourceFile "第２部　逐条解説　第１９条 .md" ;
+    law:summary "#### (設計図書の変更)  第四条発注者は、必要があると認めるときは、設計図書の変更内容を受注者に 通知して、設計図書を変更することができる。この場合において、発注者は、 必要があると認められるときは工期若しくは請負代金額を変更し、又は受注者 に損害を及ぼしたときは必要な費用を負担しなければならない。  #### 1 概要  本条は、発注者は、その都合によって設計図書を変更できること、そして、..." .
+
+law:Article_23 a law:TreatiseElement ;
+    rdfs:label "第23条" ;
+    law:refersTo law:Article_24 ;
+    law:relatesTo law:Damages,
+        law:PriceAdjustment,
+        law:TimeExtension ;
+    law:sourceFile "第２部　逐条解説　第２３条 .md" ;
+    law:summary "(発注者の請求による工期の短縮等)  - 23条発注者は、特別の理由により工期を短縮する必要があるときは、工期の 短縮変更を受注者に請求することができる。 - 2 発注者は、前項の場合において、必要があると認められるときは請負代金額 を変更し、又は受注者に損害を及ぼしたときは必要な費用を負担しなければな らない。  ## 1 概要  本条は、特別の理由があるときは、発注者は、工期を短縮することがで..." .
+
+law:Article_30 a law:TreatiseElement ;
+    rdfs:label "第30条" ;
+    law:refersTo law:Article_1,
+        law:Article_11,
+        law:Article_13,
+        law:Article_14,
+        law:Article_16,
+        law:Article_27,
+        law:Article_28,
+        law:Article_3,
+        law:Article_38,
+        law:Article_5,
+        law:Article_536,
+        law:Article_542,
+        law:Article_58 ;
+    law:relatesTo law:Damages,
+        law:DesignChange,
+        law:ForceMajeure,
+        law:PriceAdjustment,
+        law:Procedure,
+        law:TimeExtension ;
+    law:sourceFile "第２部　逐条解説　第３０条 .md" ;
+    law:summary "(不可抗力による損害)  - 30条工事目的物の引渡し前に、天災等(設計図書で、基準を定めたものにあっ ては、当該基準を超えるものに限る。)発注者と受注者のいずれの責めにも帰 すことができないもの(以下この条において「不可抗力」という。)により、 工事目的物、仮設物又は工事現場に搬入済みの工事材料若しくは建設機械器具 (以下この条において「工事目的物等」という。)に損害が生じたときは、受 注者は、..." .
+
+law:Article_15 a law:TreatiseElement ;
+    rdfs:label "第15条" ;
+    law:refersTo law:Article_30,
+        law:Article_9 ;
+    law:relatesTo law:Damages,
+        law:DesignChange,
+        law:PriceAdjustment,
+        law:Procedure,
+        law:TimeExtension ;
+    law:sourceFile "第２部　逐条解説　第１５条 .md" ;
+    law:summary "#### (支給材料及び貸与品)  - 15条発注者が受注者に支給する工事材料(以下「支給材料」という。)及び 貸与する建設機械器具(以下「貸与品」という。)の品名、数量、品質、規格又 は性能、引渡場所及び引渡時期は、設計図書に定めるところによる。 - 2 監督員は、支給材料又は貸与品の引渡しに当たっては、受注者の立会いの上、 発注者の負担において、当該支給材料又は貸与品を検査しなければならない。..." .
+
+law:Article_18 a law:TreatiseElement ;
+    rdfs:label "第18条" ;
+    law:refersTo law:Article_20,
+        law:Article_24,
+        law:Article_25,
+        law:Article_51 ;
+    law:relatesTo law:Damages,
+        law:DesignChange,
+        law:PriceAdjustment,
+        law:Procedure,
+        law:Suspension,
+        law:TimeExtension ;
+    law:sourceFile "第２部　逐条解説　第１８条 .md" ;
+    law:summary "### (条件変更等)  - 18条受注者は、工事の施工に当たり、次の各号のいずれかに該当する事実を 発見したときは、その旨を直ちに監督員に通知し、その確認を請求しなければ ならない。   - 図面、仕様書、現場説明書及び現場説明に対する質問回答書が一致しない こと(これらの優先順位が定められている場合を除く。)。   - 設計図書に誤謬又は脱漏があること。   - 三設計図書の表示が明確でないこ..." .
+
+law:Article_25 a law:TreatiseElement ;
+    rdfs:label "第25条" ;
+    law:refersTo law:Article_15,
+        law:Article_17,
+        law:Article_18,
+        law:Article_19,
+        law:Article_20,
+        law:Article_22,
+        law:Article_23,
+        law:Article_24,
+        law:Article_26,
+        law:Article_3,
+        law:Article_44,
+        law:Article_59 ;
+    law:relatesTo law:Damages,
+        law:DesignChange,
+        law:PriceAdjustment,
+        law:Procedure,
+        law:TimeExtension ;
+    law:sourceFile "第２部　逐条解説　第２５条 .md" ;
+    law:summary "#### (請負代金額の変更方法等)  - 25条(A) 請負代金額の変更については、数量の増減が内訳書記載の数量の 100分のOを超える場合、施工条件が異なる場合、内訳書に記載のない項目が 生じた場合若しくは内訳書によることが不適当な場合で特別な理由がないとき 又は内訳書が未だ承認を受けていない場合にあっては変更時の価格を基礎とし て発注者と受注者とが協議して定め、その他の場合にあっては内訳書記..." .
+
+law:Article_1 a law:TreatiseElement ;
+    rdfs:label "第1条" ;
+    law:refersTo law:Article_10,
+        law:Article_12,
+        law:Article_13,
+        law:Article_138,
+        law:Article_14,
+        law:Article_143,
+        law:Article_15,
+        law:Article_16,
+        law:Article_17,
+        law:Article_18,
+        law:Article_19,
+        law:Article_20,
+        law:Article_22,
+        law:Article_23,
+        law:Article_24,
+        law:Article_25,
+        law:Article_26,
+        law:Article_27,
+        law:Article_28,
+        law:Article_29,
+        law:Article_30,
+        law:Article_31,
+        law:Article_32,
+        law:Article_33,
+        law:Article_34,
+        law:Article_35,
+        law:Article_36,
+        law:Article_38,
+        law:Article_39,
+        law:Article_4,
+        law:Article_41,
+        law:Article_42,
+        law:Article_43,
+        law:Article_430,
+        law:Article_44,
+        law:Article_45,
+        law:Article_46,
+        law:Article_47,
+        law:Article_48,
+        law:Article_5,
+        law:Article_50,
+        law:Article_51,
+        law:Article_520,
+        law:Article_54,
+        law:Article_55,
+        law:Article_56,
+        law:Article_57,
+        law:Article_58,
+        law:Article_59,
+        law:Article_6,
+        law:Article_61,
+        law:Article_636,
+        law:Article_7,
+        law:Article_716,
+        law:Article_9,
+        law:Article_97 ;
+    law:relatesTo law:Damages,
+        law:DesignChange,
+        law:PriceAdjustment,
+        law:Procedure,
+        law:TimeExtension ;
+    law:sourceFile "第２部　逐条解説　第１条.md" ;
+    law:summary "(総則)  - 1条発注者及び受注者は、この約款(契約書を含む。以下同じ。)に基づき、 設計図書(別冊の図面、仕様書、現場説明書及び現場説明に対する質問回答書 をいう。以下同じ。)に従い、日本国の法令を遵守し、この契約(この約款及 び設計図書を内容とする工事の請負契約をいう。以下同じ。)を履行しなけれ ばならなし、。 - 2 受注者は、契約書記載の工事を契約書記載の工期内に完成し、工事目的物を 発..." .
+
+law:Article_20 a law:TreatiseElement ;
+    rdfs:label "第20条" ;
+    law:refersTo law:Article_16,
+        law:Article_17,
+        law:Article_18,
+        law:Article_19,
+        law:Article_22,
+        law:Article_24,
+        law:Article_25,
+        law:Article_46,
+        law:Article_48 ;
+    law:relatesTo law:Damages,
+        law:DesignChange,
+        law:ForceMajeure,
+        law:PriceAdjustment,
+        law:Procedure,
+        law:Suspension,
+        law:TimeExtension ;
+    law:sourceFile "第２部　逐条解説　第２０条 .md" ;
+    law:summary "#### (工事の中止)  - 20条工事用地等の確保ができない等のため又は暴風、豪雨、洪水、高潮、地 震、地すべり、落盤、火災、騒乱、暴動その他の自然的又は人為的な事象(以 下「天災等」という。)であって受注者の責めに帰すことができないものにより 工事目的物等に損害を生じ若しくは工事現場の状態が変動したため、受注者が 工事を施工できないと認められるときは、発注者は、工事の中止内容を直ちに 受注者..." .
+
+law:Article_22 a law:TreatiseElement ;
+    rdfs:label "第22条" ;
+    law:refersTo law:Article_1,
+        law:Article_18,
+        law:Article_2,
+        law:Article_24,
+        law:Article_44,
+        law:Article_55 ;
+    law:relatesTo law:Damages,
+        law:DesignChange,
+        law:ForceMajeure,
+        law:PriceAdjustment,
+        law:Suspension,
+        law:TimeExtension ;
+    law:sourceFile "第２部　逐条解説　第２２条 .md" ;
+    law:summary "#### (受注者の請求による工期の延長)  - 22条受注者は、天候の不良、第 2条の規定に基づく関連工事の調整への協力 その他受注者の責めに帰すことができない事由により工期内に工事を完成する ことができないときは、その理由を明示した書面により、発注者に工期の延長 変更を請求することができる。 - 2 発注者は、前項の規定による請求があった場合において、必要があると認め られるときは、工期を延長..." .
+
+law:Article_24 a law:TreatiseElement ;
+    rdfs:label "第24条" ;
+    law:refersTo law:Article_15,
+        law:Article_18,
+        law:Article_19,
+        law:Article_20,
+        law:Article_22,
+        law:Article_23,
+        law:Article_44,
+        law:Article_59 ;
+    law:relatesTo law:DesignChange,
+        law:PriceAdjustment,
+        law:Procedure,
+        law:Suspension,
+        law:TimeExtension ;
+    law:sourceFile "第２部　逐条解説　第２４条 .md" ;
+    law:summary "## (工期の変更方法)  - 24条工期の変更については、発注者と受注者とが協議して定める。ただし、 協議開始の日からO日以内に協議が整わない場合には、発注者が定め、受注者 に通知する。   - [注] Oの部分には、工期及び請負代金額を勘案して十分な協議が行えるよう留意して数字を記入する。 - 2 前項の協議開始の日については、発注者が受注者の意見を聴いて定め、受注 者に通知するものとする。た..." .
+

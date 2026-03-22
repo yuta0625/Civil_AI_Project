@@ -1,0 +1,35 @@
+# --- Base Frameworks ---
+langchain
+langchain-ollama
+langchain-community
+langgraph
+
+# --- RAG & Vector Stores ---
+faiss-cpu
+pypdf
+sentence-transformers
+
+# --- Knowledge Graph ---
+SPARQLWrapper
+rdflib
+networkx
+
+# --- Neo4j Driver ---
+neo4j
+
+# --- Document Processing ---
+unstructured
+marker-pdf
+tabulate
+python-magic
+python-multipart
+
+# --- API Server ---
+fastapi
+uvicorn
+
+# --- Utilities ---
+requests
+python-dotenv
+pydantic
+pydantic-settings

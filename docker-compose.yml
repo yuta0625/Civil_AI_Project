@@ -1,0 +1,74 @@
+services:
+
+  # --- 知識グラフDB (Fuseki/SPARQL) ---
+  fuseki:
+    image: secoresearch/fuseki
+    container_name: fuseki
+    platform: linux/arm64
+    ports:
+      - "3030:3030"
+    environment:
+      - ADMIN_PASSWORD=${FUSEKI_ADMIN_PASSWORD}
+    volumes:
+      - ./storage/fuseki_data:/fuseki
+    restart: always
+
+  # --- グラフDB・可視化 (Neo4j) ---
+  neo4j:
+    image: neo4j:5
+    container_name: neo4j
+    platform: linux/arm64
+    ports:
+      - "7474:7474"   # Neo4j Browser (UI確認用)
+      - "7687:7687"   # Bolt protocol (アプリ接続用)
+    environment:
+      - NEO4J_AUTH=${NEO4J_USER}/${NEO4J_PASSWORD}
+    volumes:
+      - ./storage/neo4j_data:/data
+    restart: always
+
+  # --- AI Agent (FastAPI Backend) ---
+  civil-ai-agent:
+    build:
+      context: ./app
+      dockerfile: Dockerfile
+    container_name: civil_ai_agent
+    platform: linux/arm64
+    ports:
+      - "${API_PORT}:${API_PORT}"
+    extra_hosts:
+      - "host.docker.internal:host-gateway"  # MacのOllamaに接続するため
+    volumes:
+      - ./app:/app
+      - ./data:/app/data
+      - ./storage:/app/storage
+    env_file:
+      - .env
+    entrypoint: ["python", "/app/api_server.py"]
+    working_dir: /app
+    depends_on:
+      - fuseki
+      - neo4j
+    restart: always
+
+  # ============================================================
+  # WSL2 + NVIDIA GPU 移行時にコメントアウトを解除する
+  # 合わせて .env の OLLAMA_BASE_URL を以下に変更する:
+  #   OLLAMA_BASE_URL=http://ollama:11434
+  # civil-ai-agent の extra_hosts は削除すること
+  # ============================================================
+  # ollama:
+  #   image: ollama/ollama
+  #   container_name: ollama
+  #   deploy:
+  #     resources:
+  #       reservations:
+  #         devices:
+  #           - driver: nvidia
+  #             count: all
+  #             capabilities: [gpu]
+  #   volumes:
+  #     - ./storage/ollama:/root/.ollama  # モデル永続化（再DL不要）
+  #   ports:
+  #     - "11434:11434"
+  #   restart: always
